@@ -1,9 +1,19 @@
-import React  from 'react';
+import React from 'react';
 
 import './styles/global';
 
 import Sidebar from './components/Sidebar';
+import Player from './components/Player';
 
-const App = () => <Sidebar/>;
+import { Wrapper, Container } from './styles/components';
+
+const App = () => (
+  <Wrapper>
+    <Container>
+      <Sidebar/>
+    </Container>
+    <Player/>
+  </Wrapper>
+);
 
 export default App;
