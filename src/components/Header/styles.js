@@ -6,7 +6,7 @@ export const Container = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 10px 20px 0;
+  margin: 10px 0 0;
 `;
 
 export const Search = styled.div`
@@ -14,15 +14,16 @@ export const Search = styled.div`
   align-items: center;
   border-radius: 12px;
   height: 24px;
-  width: 175px;
-  padding: 6px 7px 26px;
-  background: url(${SearchIcon}) no-repeat 7px center;
+  width: 200px;
+  padding: 6px 7px 6px 16px;
+  background: #FFF url(${SearchIcon}) no-repeat 7px center;
   
   input {
     flex: 1;
     font-size: 13px;
     color: #121212;
     border: 0;
+    margin-left: 10px;
   }  
 `;
 

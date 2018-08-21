@@ -8,7 +8,7 @@ export const Wrapper = styled.div`
 
 export const Container = styled.div`
   flex: 1;
-  display: flex;  
+  display: flex;
 `;
 
 export const Content = styled.div`
@@ -20,4 +20,6 @@ export const Content = styled.div`
   background-size: 100% 250px, 100%;
   background-repeat: no-repeat;
   background-position: top;
+  
+  padding: 0 20px;
 `;
