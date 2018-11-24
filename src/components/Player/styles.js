@@ -10,24 +10,25 @@ export const Container = styled.div`
 `;
 
 export const Current = styled.div`
+  width: 220px;
   display: flex;
   align-items: center;
-  
+
   img {
     width: 48px;
     height: 48px;
   }
-  
+
   div {
     margin-left: 12px;
     display: flex;
     flex-direction: column;
-    
+
     span {
       font-size: 13px;
       color: #FFF;
     }
-    
+
     small {
       font-size: 11px;
       color: #b3b3b3;
@@ -45,7 +46,7 @@ export const Progress = styled.div`
 export const Controls = styled.div`
   display: flex;
   align-items: center;
-  
+
   button {
     background: transparent;
     border: 0;
@@ -57,7 +58,7 @@ export const Time = styled.div`
   display: flex;
   align-items: center;
   margin-top: 5px;
-  
+
   span {
     font-size: 11px;
     color: #b3b3b3;
@@ -66,7 +67,7 @@ export const Time = styled.div`
 
 export const ProgressSlider = styled.div`
   width: 500px;
-  margin: 0 15px;  
+  margin: 0 15px;
 `;
 
 export const Volume = styled.div`
@@ -74,7 +75,7 @@ export const Volume = styled.div`
   align-items: center;
   width: 100px;
   margin-right: 20px;
-  
+
   img {
     margin-right: 5px;
   }
