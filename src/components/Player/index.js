@@ -1,5 +1,6 @@
 import React from 'react';
 import Slider from 'rc-slider';
+import Sound from 'react-sound';
 
 import { Container, Current, Volume, Progress, Controls, Time, ProgressSlider } from './styles';
 
@@ -13,6 +14,9 @@ import RepeatdIcon from '../../assets/images/repeat.svg';
 
 const Player = () => (
   <Container>
+    {/* <Sound
+      url=""
+    /> */}
     <Current>
       <img
         src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2017/12/Stargroves-album-cover.png?auto=format&q=60&fit=max&w=930"

@@ -1,9 +1,9 @@
 import React from 'react';
 
-import loadingIcon from '../../assets/images/loading.svg';
+import LoadingIcon from '../../assets/images/loading.svg';
 
 import { Spinner } from './styles';
 
-const Loading = () => <Spinner src={loadingIcon} alt="Carregando" />;
+const Loading = () => <Spinner src={LoadingIcon} alt="Carregando" />
 
 export default Loading;
